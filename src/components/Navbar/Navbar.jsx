@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./Navbar.css";
-import blueTop from "../../assets/union.png";
+import blueUp from "../../assets/Union.png";
 import { Link } from "react-router-dom";
 import navLogo from "../../assets/image 2.png";
 import Search from "../Search/Search";
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="position-relative">
-        <img className="w-100" src={blueTop} alt="" />
+        <img className="w-100" src={blueUp} alt="" />
 
         <div className="position-absolute d-flex w-100 justify-content-between  container align-items-center start-0 end-0 top-0 mt-2 px-5">
           <div className="d-flex align-items-center gap-2">
@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Search/>
+          <Search />
         </div>
       </div>
     </nav>

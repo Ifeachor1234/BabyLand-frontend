@@ -2,7 +2,7 @@
 import React from "react";
 import "./Search.css";
 import navCart from "../../assets/Group 29.png";
-import navSearch from "../../assets/frame 72.png";
+import navSearch from "../../assets/Frame 72.png";
 
 const Search = () => {
   return (
